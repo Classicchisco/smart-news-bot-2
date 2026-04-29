@@ -4,7 +4,7 @@ dotenv.config();
 import cron from "node-cron";
 import express from "express";
 
-import { fetchNews } from "./newsFetcher.js";
+import { fetchNews } from "./fetchNews.js";
 import { scoreNews, getTopNews } from "./scorer.js";
 import { sendNews } from "./telegram.js";
 import { saveTopNews, getSavedNews } from "./recap.js";
